@@ -3,6 +3,8 @@
 A small macOS menu-bar app for running several Claude accounts side by side, in both the
 **Claude desktop app** and **Claude Code** (the `claude` CLI).
 
+![Claude Profiles main window: two profiles, one running, each with a terminal button and Show or Launch](docs/screenshot.jpg)
+
 - **Desktop app:** each profile launches its own copy of Claude.app with its own data folder
   (`--user-data-dir`), so each one stays signed in to a different account. The same works as
   `open -n -a Claude.app --args --user-data-dir=…`.
